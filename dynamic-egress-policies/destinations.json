@@ -1,0 +1,16 @@
+{
+  "destinations": [
+   {  "name": "cats",
+      "description": "cats app responding to TCP and UDP calls",		
+      "ips": [{"start":"10.255.132.40", "end": "10.255.132.45"}],
+      "ports": [{"start": 7000, "end": 7010}],
+      "protocol": "tcp"	
+   },
+   {  "name": "cats-udp",	
+      "ips": [{"start":"10.255.132.40", "end": "10.255.132.45"}],
+      "ports": [{"start": 9000, "end": 9010}],
+      "protocol": "udp"
+   }
+  ]
+}
+
