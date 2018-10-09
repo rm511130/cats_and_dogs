@@ -1,0 +1,11 @@
+{
+  "egress_policies": [{ 
+    "source": {
+      "type": "app",
+      "id": "638fe9dd-9dcb-4d4c-94cb-068cfb8d37f4"
+    },
+    "destination": {
+      "id": "594fa6d4-06ff-4b5c-6cc4-bbcde2ed2300"
+    }
+  }]
+}
